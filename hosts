@@ -1,0 +1,8 @@
+[web-server]
+172.31.22.11
+
+[database_server]
+172.31.24.101
+
+[app_server]
+172.31.19.143
