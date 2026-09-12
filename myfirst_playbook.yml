@@ -1,0 +1,9 @@
+---
+- name: adjoa's playbook
+- hosts: all
+   become: true
+   tasks:
+     - name: install the latest version of Apache
+       ansible.builtin.dnf:
+         name: httpd
+         state: latest
